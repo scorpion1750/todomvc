@@ -1,0 +1,30 @@
+before:
+    - path: load-module     
+      name: add load module route     
+      params:       
+        debug: true       
+        routePath: /m       
+        loaderPath: /m-loader.js       
+        pathSettings:         
+          base: ../public/scripts         
+          # paths:           
+          #   css: ../styles           
+          #   images: ../images            
+          #   common: ../../common           
+          #regenerator-runtime: ../../boot/load-module/transformers/regenerator/runtime.js       
+          # transformerSettings:         
+          #   cssWrapper:           
+          #     staticPath: ../public           
+          #     routePath: ./
+    - path: public
+      name: set statics 
+    
+    - path: views
+      name: set view engine
+    
+after:
+    - path: routes
+      name: register routes
+    
+    - path: error
+      name: handle error

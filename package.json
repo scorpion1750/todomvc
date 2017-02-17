@@ -1,0 +1,39 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "express-app-boot": "0.0.4",
+    "express-hbs": "^1.0.4",
+    "express-module-serv": "^2.8.5",
+    "express-routes-loader": "0.0.3",
+    "gulp-babel": "^6.1.2",
+    "m-react": "^0.2.30",
+    "merge": "^1.2.0",
+    "rqdir": "^1.0.4",
+    "run-sequence": "^1.2.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "browserify": "^14.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
